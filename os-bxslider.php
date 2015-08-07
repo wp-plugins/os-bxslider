@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: OS BXSlider
-Plugin URI: http://offshorent.com/os-bxslider/
+Plugin URI: http://offshorent.com/blog/extensions/os-bxslider
 Description: Creates a responsive slider using bxslider. WordPress plugin develop by Offshorent Softwares Pvt Ltd.
 Version: 2.0
 Author: Jinesh.P.V, Offshorent Softwares Pvt Ltd.
-Author URI: http://offshorent.com/os-bxslider/
+Author URI: http://offshorent.com/blog/extensions/os-bxslider
 License: GPL2
 /*  Copyright 2015-2016  OS BxSlider - Offshorent Softwares Pvt Ltd  ( email: jinesh@offshorent.com )
 
