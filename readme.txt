@@ -1,6 +1,5 @@
-=== Offshorent BXSlider ===
+=== OS BXSlider ===
 Contributors: offshorent
-Donate link: http://offshorent.com/
 Tags: slider, responsive slider, slider with caption, carousel slider, carousel, thumbnail slider, ticker
 Requires at least: 3.0
 Tested up to: 4.2.2
