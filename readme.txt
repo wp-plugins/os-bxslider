@@ -37,8 +37,6 @@ Support
 
 So that others can share in the answer, please submit your support requests through the WordPress forums for Offshorent BXSlider(http://wordpress.org/support/plugin/os-bxslider).
 
-If you want private or priority support, please [donate](http://offshorent.com/donate/) at least $5 USD to cover my time.
-
 == Installation ==
 
 Minimum requirements:    
