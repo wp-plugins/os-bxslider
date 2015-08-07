@@ -7,10 +7,10 @@ Stable tag: 2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Offshorent BXSlider is responsive multi slider which can be used anywere in your posts, pages, custom post types etc.
+Offshorent BXSlider is responsive multi slider which can be used anywhere in your posts, pages, custom post types etc.
 == Description ==
 
-Offshorent BXSlider is responsive multi slider which can be used anywere in your posts, pages, custom post types etc with a wide variety of options for customizing your slider.
+Offshorent BXSlider is responsive multi slider which can be used anywhere in your posts, pages, custom post types etc with a wide variety of options for customizing your slider.
 
 == Features ==
 * Admin interface to add, edit and manage slider
