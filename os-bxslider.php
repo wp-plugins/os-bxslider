@@ -3,7 +3,7 @@
 Plugin Name: OS BXSlider
 Plugin URI: http://offshorent.com/blog/extensions/os-bxslider
 Description: Creates a responsive slider using bxslider. WordPress plugin develop by Offshorent Softwares Pvt Ltd.
-Version: 2.0
+Version: 2.1
 Author: Jinesh.P.V, Offshorent Softwares Pvt Ltd.
 Author URI: http://offshorent.com/
 License: GPL2
@@ -33,21 +33,21 @@ if ( ! class_exists( 'osBxSlider' ) ) :
     * Main osBxSlider Class
     *
     * @class osBxSlider
-    * @version	2.0
+    * @version	2.1
     */
 
 	    final class osBxSlider {
 	    
 		/**
 		* @var string
-		* @since	2.0
+		* @since	2.1
 		*/
 		 
-		public $version = '2.0';
+		public $version = '2.1';
 
 		/**
 		* @var osBxSlider The single instance of the class
-		* @since 2.0
+		* @since 2.1
 		*/
 		 
 		protected static $_instance = null;
@@ -57,7 +57,7 @@ if ( ! class_exists( 'osBxSlider' ) ) :
 		*
 		* Ensures only one instance of osBxSlider is loaded or can be loaded.
 		*
-		* @since 2.0
+		* @since 2.1
 		* @static
 		* @see OSBX()
 		* @return osBxSlider - Main instance
@@ -73,27 +73,27 @@ if ( ! class_exists( 'osBxSlider' ) ) :
 		/**
 		* Cloning is forbidden.
 		*
-		* @since 2.0
+		* @since 2.1
 		*/
 
 		public function __clone() {
-            _doing_it_wrong( __FUNCTION__, __( 'Cheatin&#8217; huh?', 'os-bxslider' ), '2.0' );
+            _doing_it_wrong( __FUNCTION__, __( 'Cheatin&#8217; huh?', 'os-bxslider' ), '2.1' );
 		}
 
 		/**
 		* Unserializing instances of this class is forbidden.
 		*
-		* @since 2.0
+		* @since 2.1
 		*/
 		 
 		public function __wakeup() {
-            _doing_it_wrong( __FUNCTION__, __( 'Cheatin&#8217; huh?', 'os-bxslider' ), '2.0' );
+            _doing_it_wrong( __FUNCTION__, __( 'Cheatin&#8217; huh?', 'os-bxslider' ), '2.1' );
 		}
 	        
 		/**
 		* Get the plugin url.
 		*
-		* @since 2.0
+		* @since 2.1
 		*/
 
 		public function plugin_url() {
@@ -103,7 +103,7 @@ if ( ! class_exists( 'osBxSlider' ) ) :
 		/**
 		* Get the plugin path.
 		*
-		* @since 2.0
+		* @since 2.1
 		*/
 
 		public function plugin_path() {
@@ -113,7 +113,7 @@ if ( ! class_exists( 'osBxSlider' ) ) :
 		/**
 		* Get Ajax URL.
 		*
-		* @since 2.0
+		* @since 2.1
 		*/
 
 		public function ajax_url() {
@@ -124,7 +124,7 @@ if ( ! class_exists( 'osBxSlider' ) ) :
 		* osBxSlider Constructor.
 		* @access public
 		* @return osBxSlider
-		* @since 2.0
+		* @since 2.1
 		*/
 		 
 		public function __construct() {
@@ -148,7 +148,7 @@ if ( ! class_exists( 'osBxSlider' ) ) :
 	        
 		/**
 		* Install osBxSlider
-		* @since 2.0
+		* @since 2.1
 		*/
 		 
 		public function os_bxslider_install (){
@@ -162,7 +162,7 @@ if ( ! class_exists( 'osBxSlider' ) ) :
 	        
 		/**
 		* Define osBxSlider Constants
-		* @since 2.0
+		* @since 2.1
 		*/
 		 
 		private function os_bxslider_constants() {
@@ -179,7 +179,7 @@ if ( ! class_exists( 'osBxSlider' ) ) :
 		/**
 		* includes admin defaults files
 		*
-		* @since 2.0
+		* @since 2.1
 		*/
 		 
 		private function os_bxslider_admin_includes() {
@@ -189,7 +189,7 @@ if ( ! class_exists( 'osBxSlider' ) ) :
 	        
 		/**
 		* Init osBxSlider when WordPress Initialises.
-		* @since 2.0
+		* @since 2.1
 		*/
 		 
 		public function os_bxslider_init() {
@@ -200,7 +200,7 @@ if ( ! class_exists( 'osBxSlider' ) ) :
 		/**
 		* Clean all output buffers
 		*
-		* @since  2.0
+		* @since  2.1
 		*/
 		 
 		public function os_bxslider_do_output_buffer() {
@@ -211,7 +211,7 @@ if ( ! class_exists( 'osBxSlider' ) ) :
 		/**
 		* Callback function
 		*
-		* @since  2.0
+		* @since  2.1
 		*/
 		 
 		public function os_bxslider_do_output_buffer_callback( $buffer ){
@@ -221,7 +221,7 @@ if ( ! class_exists( 'osBxSlider' ) ) :
 		/**
 		* Clean all output buffers
 		*
-		* @since  2.0
+		* @since  2.1
 		*/
 		 
 		public function os_bxslider_flush_ob_end(){
@@ -230,7 +230,7 @@ if ( ! class_exists( 'osBxSlider' ) ) :
 	        
 		/**
 		* Admin init osBxSlider when WordPress Initialises.
-		* @since  2.0
+		* @since  2.1
 		*/
 		 
 		public function os_bxslider_admin_init() {
@@ -241,7 +241,7 @@ if ( ! class_exists( 'osBxSlider' ) ) :
 		/**
 		* Admin side style and javascript hook for osBxSlider
 		*
-		* @since  2.0
+		* @since  2.1
 		*/
 		 
 		public function os_bxslider_admin_styles_scrips() {
@@ -250,27 +250,27 @@ if ( ! class_exists( 'osBxSlider' ) ) :
             
             wp_enqueue_script( 'jquery-ui-sortable' );            
             wp_enqueue_style( 'os-admin-style', plugins_url( 'css/admin/style-min.css', __FILE__ ) );
-            wp_enqueue_script( 'os-custom-min', plugins_url( 'js/admin/custom-min.js', __FILE__ ), array(), '2.0', true );
+            wp_enqueue_script( 'os-custom-min', plugins_url( 'js/admin/custom-min.js', __FILE__ ), array(), '2.1', true );
 		}
 
 		/**
 		* Frontend style and javascript hook for osBxSlider
 		*
-		* @since  2.0
+		* @since  2.1
 		*/
 		 
 		public function os_bxslider_frontend_styles_scrips() {
 	                      
             wp_enqueue_style( 'os-bxslider-style', plugins_url( 'plugins/bxslider/jquery.bxslider.css', __FILE__ ) );
             wp_enqueue_style( 'os-frontend-style', plugins_url( 'css/style.css', __FILE__ ) );
-            wp_enqueue_script( 'os-bxslider-min', plugins_url( 'plugins/bxslider/jquery.bxslider.min.js', __FILE__ ), array(), '2.0', true );
-            wp_enqueue_script( 'os-frontend-script', plugins_url( 'js/frontend-min.js', __FILE__ ), array(), '2.0', true );         
+            wp_enqueue_script( 'os-bxslider-min', plugins_url( 'plugins/bxslider/jquery.bxslider.min.js', __FILE__ ), array(), '2.1', true );
+            wp_enqueue_script( 'os-frontend-script', plugins_url( 'js/frontend-min.js', __FILE__ ), array(), '2.1', true );         
 		} 
 
 		/**
 		* Add Custom style for each slider
 		*
-		* @since  2.0
+		* @since  2.1
 		*/		 
 
 		public function os_bxslider_custom_css( $slider_id ) {
@@ -341,7 +341,7 @@ if ( ! class_exists( 'osBxSlider' ) ) :
 		/**
 		* Shortcode function for os-bxslider
 		*
-		* @since  2.0
+		* @since  2.1
 		*/
 		 
 		public function os_bxslider_shortcode( $atts ) {
@@ -537,7 +537,7 @@ endif;
 /**
  * Returns the main instance of osBxSlider to prevent the need to use globals.
  *
- * @since  2.0
+ * @since  2.1
  * @return osBxSlider
  */
  
