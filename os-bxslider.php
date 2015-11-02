@@ -245,8 +245,6 @@ if ( ! class_exists( 'osBxSlider' ) ) :
 		*/
 		 
 		public function os_bxslider_admin_styles_scrips() {
-	            
-            wp_enqueue_media();
             
             wp_enqueue_script( 'jquery-ui-sortable' );            
             wp_enqueue_style( 'os-admin-style', plugins_url( 'css/admin/style-min.css', __FILE__ ) );
