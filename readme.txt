@@ -2,15 +2,15 @@
 Contributors: offshorent
 Tags: slider, responsive slider, slider with caption, carousel slider, carousel, thumbnail slider, ticker
 Requires at least: 3.0
-Tested up to: 4.2.4
-Stable tag: 2.2
+Tested up to: 4.3.1
+Stable tag: 2.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Offshorent BXSlider is responsive multi slider which can be used anywhere in your posts, pages, custom post types etc.
+OS BXSlider is responsive multi slider which can be used anywhere in your posts, pages, custom post types etc.
 == Description ==
 
-Offshorent BXSlider is responsive multi slider which can be used anywhere in your posts, pages, custom post types etc with a wide variety of options for customizing your slider.
+OS BXSlider is responsive multi slider which can be used anywhere in your posts, pages, custom post types etc with a wide variety of options for customizing your slider.
 
 == Features ==
 * Admin interface to add, edit and manage slider
