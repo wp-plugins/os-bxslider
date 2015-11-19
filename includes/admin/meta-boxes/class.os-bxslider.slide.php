@@ -9,7 +9,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * Creating metabox for slides
  *
  * @class 		osBxSliderMetaboxSlides
- * @version		2.0
+ * @version		2.3
  * @category            Class
  * @author 		Jinesh.P.V, Offshorent Softwares Pvt Ltd.
  */
@@ -59,7 +59,7 @@ endif;
 /**
  * Returns the main instance of osBxSliderMetaboxSlides to prevent the need to use globals.
  *
- * @since  2.0
+ * @since  2.3
  * @return osBxSliderMetaboxSlides
  */
  
